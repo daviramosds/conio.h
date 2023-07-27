@@ -61,6 +61,14 @@ This is a library `conio.h` for linux. Just copy file and paste file `conio.h` o
 
 ### Step 1 :
 
+- Use curl to get the file and copy it to `/usr/inlude`
+  
+```
+sudo curl "https://raw.githubusercontent.com/zoelabbb/conio.h/master/conio.h" > /usr/include/conio.h
+```
+
+### or
+
 - Open your terminal can as root
 - sudo apt-get update
 - sudo apt-get upgrade
